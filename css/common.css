@@ -4,7 +4,8 @@
     --accent-color: #2196F3;
     --wite-color: #FFFFFF;
     --fill-silver: #F5F4FA;
-    --cubic: cubic-bezier(0.4, 0, 0.2, 1)
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+    --footer-text-color: rgba(255, 255, 255, 0.6);
   
 }
 
@@ -216,10 +217,36 @@ footer{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: block;
+}
+
+.finish input{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    background: #2F303A;  
+}
+
+.footer-form{
+    vertical-align: middle;
+    padding: 18px 12px;
+    margin-right: 8px;
+    width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.87;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--footer-text-color);
+    background-color: unset;
 }
 
 .icon-send{
     margin-left: 10px;
+    width: 24px; 
+    height:24px;
 }
 
 .finish-social{
@@ -235,7 +262,7 @@ footer{
 }
 
 .finishbox{
-    padding-top: 56px;
+    display: flex;
     margin-left: 94px;
 }
 
