@@ -39,7 +39,7 @@
     </header>
 
   <main>
-    <h1 class="is-hidden">Наши проэкты</h1>
+    <h1 class="visually-hidden">Наши проэкты</h1>
 
     <section class="section-project"> 
       <div class="container case">
@@ -235,10 +235,15 @@
           </div>
         
              <div class="finishbox">
-                <p class="finish">ПОДПИСАТЬСЯ НА РАССЫЛКУ</p>
-        <a href="" class="button secondary">Подписаться <svg class="icon-send" width=20px height=20px> 
+                <label>           
+                  <b class="finish">ПОДПИСАТЬСЯ НА РАССЫЛКУ</b>
+                  <input class="footer-form" type="email" name="email" placeholder="Email" autocomplete="off"/>
+                </label> 
+        <button class="button secondary">Подписаться <svg class="icon-send"> 
           <use href="./images/symbol-defs.svg#icon-icon-send"></use> 
-        </svg></a>
+        </svg>
+        </button>
+              
             </div>
           </div>
         <p class="developed">2020 | Developed by GoIT Students </p>
