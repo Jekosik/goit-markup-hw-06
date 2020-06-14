@@ -48,6 +48,7 @@ img{
     letter-spacing: 0.06em;
 
     padding: 10px 32px;
+    cursor: pointer;
 }
 
 .button.secondary{
@@ -475,6 +476,7 @@ img{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
     
 .close-button {
@@ -622,6 +624,7 @@ img{
     
     width: 15px;
     height: 15px;
+    cursor: pointer;
     
     border: 2px solid var(--title-text-color);
     border-radius: 2px;
